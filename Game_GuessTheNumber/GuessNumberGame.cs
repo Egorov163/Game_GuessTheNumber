@@ -74,6 +74,10 @@ namespace Game_GuessTheNumber
                     Console.WriteLine($"Can't be more then {GameRule.MaxNumber}");
                     isUserGood = false;
                 }
+                else
+                {
+                    isUserGood = true;
+                }
 
             } while (!isUserGood);
 
